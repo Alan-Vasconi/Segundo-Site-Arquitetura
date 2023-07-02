@@ -1,0 +1,195 @@
+body {
+    background-color: white;
+    margin-right:5;
+    margin-left:5;
+  }
+h1{
+    font-style:italic;
+    font-family:Arial;
+    background-color:azure;
+}
+h2{
+    font-style:italic;
+    font-family:Arial;
+    background-color:white;
+}
+  .formatar {
+    border-collapse: collapse;
+    font-family: Arial;
+    line-height: 1.5;
+    background-color: azure;
+    border-top: none;
+    border-bottom: none;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  img.max-width-100 {
+    max-width: 600px;
+  }
+  img.max-width-200 {
+    max-width: 200px;
+  }
+  
+  .formatatabela {
+    width: 1050px;
+  }
+  
+  li {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-indent: 17px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-indent: 20px;
+  }
+  
+  .tabela {
+    border-collapse: collapse;
+    font-family: Arial;
+    line-height: 1.5;
+    background-color: azure;
+    justify-content: space-around;
+    max-width: 1000px;
+  }
+  
+  .obs {
+    width: 90%;
+    font-size: 15px;
+  }
+  
+  #cabecalho {
+    background-color: lightblue;
+    border-color: none black;
+    border-width: 2px;
+    border-style: outset;
+    margin-top: 5px;
+    font-family: cursive;
+    padding-top: 40px;
+    height: auto; /* adicionado para ajustar a altura de acordo com o conteúdo */
+  }
+  
+  #imagem {
+    background-color: white;
+  }
+  
+  #rodape {
+    background-color: lavender;
+  }
+  
+  .links {
+    border-color: black;
+    background: white;
+    margin: 10px;
+    color: black;
+    justify-content: space-around;
+  }
+  
+  .tabela2 {
+    border-collapse: collapse;
+    font-family: Arial;
+    line-height: 1.5;
+    background-color: azure;
+    border-top: none;
+  }
+  
+  .tabela3 {
+    border-collapse: collapse;
+    font-family: Arial;
+    line-height: 1.5;
+    background-color: azure;
+    border-bottom: none;
+  }
+  
+  /* estilos para telas menores */
+  @media screen and (max-width: 768px) {
+    img.max-width-200 {
+        max-width: 100px;
+      }
+    table {
+      width: 100%;
+      font-size: 15px;
+    }
+    .formatatabela {
+      width: 100%;
+    }
+    p {
+      width: 100%;
+      font-size: 15px;
+    }
+    li {
+      width: 100%;
+      font-size: 15px;
+    }
+    .gif img {
+      height: auto;
+      max-height: 200px;
+      max-width: 100%; /* adicionado para ajustar a largura do GIF */
+    }
+    #cabecalho {
+      width: 100%;
+      height: auto; /* ajustado para ajustar a altura de acordo com o conteúdo */
+    }
+    #imagem {
+      width: 100%;
+    }
+    #rodape {
+      width: 100%;
+    }
+    .formatar {
+      max-width: 100%;
+    }
+    .tabela {
+      max-width: 100%;
+      margin: 0;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    img.max-width-200 {
+        max-width: 100px;
+      }
+    table {
+      width: 100%;
+      font-size: 15px;
+    }
+    .formatatabela {
+      width: 100%;
+    }
+    p {
+      width: 100%;
+      font-size: 15px;
+    }
+    li {
+      width: 100%;
+      font-size: 15px;
+    }
+    .gif img {
+      height: auto;
+      max-height: 200px;
+      max-width: 100%; /* adicionado para ajustar a largura do GIF */
+    }
+    #cabecalho {
+      width: 100%;
+      height: auto; /* ajustado para ajustar a altura de acordo com o conteúdo */
+    }
+    #imagem {
+      width: 100%;
+    }
+    #rodape {
+      width: 100%;
+    }
+    .formatar {
+      max-width: 100%;
+    }
+    .tabela {
+      max-width: 100%;
+      margin: 0;
+    }
+  }
+  
